@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+
+<p>Rode seu algoritmo genetico com taxa de mutacao em 0.1, uma populacao de 100
+individuos, e 1000 iteracoes. Sem mudar estes parametros, varie o elitismo para os
+valores 0, 0.1, 0.25, 0.5, e 0.75.</p>
+
+<ul>
+<li><a href="resultado_e00.html">Elitismo 0.00</a></li>
+<li><a href="resultado_e01.html">Elitismo 0.10</a></li>
+<li><a href="resultado_e025.html">Elitismo 0.25</a></li>
+<li><a href="resultado_e05.html">Elitismo 0.50</a></li>
+<li><a href="resultado_e75.html">Elitismo 0.75</a></li>
+</ul>
+</br>
+<p>Responda as seguintes perguntas:</p>
+<ol>
+<li>Como o elitismo do seu GA influenciou no número de iteracoes necessarias para
+encontrar uma solucao?</li>
+<p>O elitismo garante copiar caracteristicas do melhor individuo para a geracao posterior, sua influencia se da
+no inicio das iteracoes, como de costume, da-se a convergencia de caracteristicas.</p>
+
+<li>Como o elitismo do seu GA influenciou na qualidade das solucoes encontradas?</li>
+<p>O elitismo me ajuda a que a solucao cresca mais rapidamente antes da convergencia das caracteristicas, ou seja,
+com sua utilizacao, e possivel encontrar uma solucao proxima a global de modo mais rapido.</p>
+</ol>
+
+<p>Repita o processo fixando o elitismo em 0.1, mas variando o tamanho da populacao
+(apenas) para os tamanhos de 10, 25, 50, 100, 500, e 1000.<p>
+
+<ul>
+<li><a href="resultado_p10.html">Populacao 10</a></li>
+<li><a href="resultado_p25.html">Populacao 25</a></li>
+<li><a href="resultado_p50.html">Populacao 50</a></li>
+<li><a href="resultado_p100.html">Populacao 100</a></li>
+<li><a href="resultado_p500.html">Populacao 500</a></li>
+<li><a href="resultado_p1000.html">Populacao 1000</a></li>
+</ul>
+</br>
+
+Responda as seguintes perguntas:
+
+<ol>
+<li>Como o tamanho da populacao do seu GA influenciou no numero de iteracoes
+necessarias para encontrar uma solucao?</li>
+<p>De modo proporcional, quanto maior a populacao, maior sera o numero de iteracoes que sao admitidas.</p>
+
+<li>Como o tamanho da populacao do seu GA influenciou na qualidade das solucoes
+encontradas?</li>
+<p>Quando se tem um numero grande (500 e 1000), pode-se perseber que em poder de computação, o processo fica mais lento, porém há um controle de colisao maior, dando uma resolucao interessante.
+</p>
+<p>
+Quando a populacao e menor, a evolucao tem característica pouco variante e pouco qualitativa.</p>
+</ol>
+</body>
+</head>
